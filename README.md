@@ -1,9 +1,11 @@
 # 대규모 스포츠 행사 전 지하철역 혼잡도 분석
 
+
 ## 🎆 프로젝트 소개 
 
 대규모 스포츠 행사(야구, 축구)가 열릴 때 경기장과 가장 인접한 역의 이용 인원을 해당 역의 하차 인원 형태로 파악하여 경기 시작 2시간, 경기 시작 1시간, 경기 시작 시간 단위로 혼잡도를 파악한다. 
 📚 사용 데이터셋: 대규모 스포츠 행사 개최 시기별 전철역 이용인원 한국철도공사 제공), 전철역 시간별 이용인원(한국철도공사 제공), 서울교통공사_하차순위(공공데이터 포털 제공), 서울교통공사_역별 일별 시간대별 승하차 인원 정보(공공데이터 포털 제공), 서울교통공사_월별 승하차인원_20191231(공공데이터 포털 제공), 서울교통공사_하차순위_20210831(공공데이터포털 제공)
+
 
 ## 기술 스택 
 
@@ -11,6 +13,7 @@
 <img src="https://img.shields.io/badge/php-777BB4?style=for-the-badge&logo=php&logoColor=white">
 <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
 </div>
+
 
 ## ERP Diagram 
 
@@ -112,6 +115,7 @@
 
 ## PHP 연결 구조
 
+
 login.php (로그인 첫 화면) -> main.php (검색 설정 화면) ->connect.php(결과 화면)
 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└>edit.php(비밀번호 변경 화면)-> edited.php(변경 완료화면)
@@ -119,6 +123,7 @@ login.php (로그인 첫 화면) -> main.php (검색 설정 화면) ->connect.ph
 └> singup.php(회원가입 화면) -> register.php(회원가입 완료 화면) 
 
 └> bye.php(회원탈퇴 화면) -> byebye.php(회원탈퇴 완료 화면)
+
 
 ## 서비스 화면
 
