@@ -114,7 +114,7 @@
 
 login.php (로그인 첫 화면) -> main.php (검색 설정 화면) ->connect.php(결과 화면)
 
-|                          └>edit.php(비밀번호 변경 화면)-> edited.php(변경 완료화면)
+|  &nbsp&nbsp&nbsp                         └>edit.php(비밀번호 변경 화면)-> edited.php(변경 완료화면)
 
 └> singup.php(회원가입 화면) -> register.php(회원가입 완료 화면) 
 
