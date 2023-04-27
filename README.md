@@ -114,13 +114,16 @@
 
 login.php (로그인 첫 화면) -> main.php (검색 설정 화면) ->connect.php(결과 화면)
 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└>edit.php(비밀번호 변경 화면)-> edited.php(변경 완료화면)
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└>edit.php(비밀번호 변경 화면)-> edited.php(변경 완료화면)
 
 └> singup.php(회원가입 화면) -> register.php(회원가입 완료 화면) 
 
 └> bye.php(회원탈퇴 화면) -> byebye.php(회원탈퇴 완료 화면)
 
 ## 서비스 화면
+
+
+https://user-images.githubusercontent.com/61787171/234763980-b8f1d9fd-b718-449c-83f4-f71039f18d48.mp4
 
 
 
