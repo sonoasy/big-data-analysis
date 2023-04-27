@@ -16,7 +16,7 @@
 
 <img src="https://user-images.githubusercontent.com/61787171/234761044-e2db9bc6-e372-4cd2-96a0-4a0b03d6179f.png" >
 
-- 테이블 명 및 구성설명
+### 테이블 명 및 구성설명
 
 ### 1. info : 경기장 및 근처 역 정보, 거리 데이터
   - stdm(경기장)
@@ -114,7 +114,7 @@
 
 login.php (로그인 첫 화면) -> main.php (검색 설정 화면) ->connect.php(결과 화면)
 
-|                         └>edit.php(비밀번호 변경 화면)-> edited.php(변경 완료화면)
+|                          └>edit.php(비밀번호 변경 화면)-> edited.php(변경 완료화면)
 
 └> singup.php(회원가입 화면) -> register.php(회원가입 완료 화면) 
 
