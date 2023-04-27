@@ -16,7 +16,7 @@
 
 <img src="https://user-images.githubusercontent.com/61787171/234761044-e2db9bc6-e372-4cd2-96a0-4a0b03d6179f.png" >
 
-### 테이블 명 및 구성설명
+### 🧾 테이블 명 및 구성설명
 
 ### 1. info : 경기장 및 근처 역 정보, 거리 데이터
   - stdm(경기장)
