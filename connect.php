@@ -171,19 +171,17 @@ if(array_key_exists('day', $_POST)){
 	 
 	  
 	  if($php_year=='2018'){
-	  $sql="select * from play where w_date<20190101 and ctgry='".$_POST['sports']."' and w_time='".$php_time."'";
-		
-		$sqlg1="select bef_two_h,w_date from play where w_date<20190101 and ctgry='".$_POST['sports']."' group by bef_two_h,bef_one_h,run_h";
-		
-		
+	      $sql="select * from play where w_date<20190101 and ctgry='".$_POST['sports']."' and w_time='".$php_time."'";
+	      $sqlg1="select MAX(bef_two_h) AS max_bef_two_h,MAX(bef_one_h) AS max_bef_one_h, MAX(run_h) AS max_run_h 
+              from play where w_date<20190101 and ctgry='".$_POST['sports']."' group by bef_two_h,bef_one_h,run_h";		
 	  }
-      else if($php_year=='2019'){
-	   $sql="select * from play2 where w_date>20181231 and w_date<20200101 and ctgry='".$_POST['sports']."' and w_time='".$php_time."'";
-	   $sqlg1="select bef_two_h,w_date from play2 where w_date>20181231 and w_date<20200101 and ctgry='".$_POST['sports']."' group by bef_two_h,bef_one_h,run_h";
+          else if($php_year=='2019'){
+	      $sql="select * from play2 where w_date>20181231 and w_date<20200101 and ctgry='".$_POST['sports']."' and w_time='".$php_time."'";
+	      $sqlg1="select bef_two_h,w_date from play2 where w_date>20181231 and w_date<20200101 and ctgry='".$_POST['sports']."' group by bef_two_h,bef_one_h,run_h";
 	  }		  
 	  else if($php_year=='2020'){
-	    $sql="select * from play3 where w_date>20191231 and ctgry='".$_POST['sports']."' and w_time='".$php_time."' ";
-		$sqlg1="select bef_two_h,w_date from play3 where w_date>20191231 and ctgry='".$_POST['sports']."' group by bef_two_h,bef_one_h,run_h";
+	      $sql="select * from play3 where w_date>20191231 and ctgry='".$_POST['sports']."' and w_time='".$php_time."' ";
+	      $sqlg1="select bef_two_h,w_date from play3 where w_date>20191231 and ctgry='".$_POST['sports']."' group by bef_two_h,bef_one_h,run_h";
 	  }
 	  
 	  
